@@ -87,6 +87,7 @@ $violet: hsl(257, 40%, 49%);
 @media screen and (min-width: 900px) {
   .site {
     height: 100vh;
+    background-image: url("/images/bg-desktop.svg");
   }
   .flex {
     display: flex;
