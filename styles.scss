@@ -88,6 +88,7 @@ $violet: hsl(257, 40%, 49%);
   .site {
     height: 100vh;
     background-image: url("/images/bg-desktop.svg");
+    background-size: cover;
   }
   .flex {
     display: flex;

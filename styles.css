@@ -91,6 +91,7 @@
   .site {
     height: 100vh;
     background-image: url("/images/bg-desktop.svg");
+    background-size: cover;
   }
   .flex {
     display: -webkit-box;
