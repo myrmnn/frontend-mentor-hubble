@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.site {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("/images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #674baf;
+}
+
+.logo {
+  width: 150px;
+  font-family: "Poppins", sans-serif;
+  padding-left: 1em;
+  padding-top: 1.5em;
+}
+
+.mockups {
+  width: 85%;
+  margin: 3em auto 0 auto;
+}
+
+.mockups__img {
+  width: 100%;
+}
+
+.landing {
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin: 3.2em auto 1em auto;
+}
+
+.landing__title {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.landing__intro {
+  line-height: 2;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+.btn__container {
+  margin: 2em auto;
+  width: 240px;
+}
+
+.btn {
+  padding: 1em 2em;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e882e8;
+}
+
+.socialIcons {
+  margin-top: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.socialIcons i {
+  color: white;
+  padding: 0 0.5em;
+  font-size: 1.3rem;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.socialIcons i:hover {
+  color: #e882e8;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+@media screen and (min-width: 900px) {
+  .site {
+    height: 100vh;
+  }
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 3em;
+  }
+  .landing {
+    text-align: left;
+    padding-left: 2em;
+  }
+  .landing__title {
+    font-size: 1.5;
+  }
+  .landing__intro {
+    margin: 0;
+    padding: 0;
+  }
+  .btn__container {
+    margin: 2em 0;
+    width: 200px;
+  }
+  .socialIcons {
+    margin-top: 3em;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 1em;
+  }
+  .socialIcons i {
+    padding: 0 0.5em;
+    font-size: 1.6rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
